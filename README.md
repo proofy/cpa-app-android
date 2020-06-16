@@ -3,8 +3,8 @@
 </h1>
 
 <p align="center">
-    <a href="https://github.com/corona-warn-app/cwa-app-android/issues" title="Open Issues"><img src="https://img.shields.io/github/issues/corona-warn-app/cwa-app-android"></a>
-    <a href="https://circleci.com/gh/corona-warn-app/cwa-app-android" title="Build Status"><img src="https://circleci.com/gh/corona-warn-app/cwa-app-android.png?circle-token=c26c689ad7833b8c0786752d3e65f56f25f906f3&style=shield"></a>
+    <a href="https://github.com/proofy/cpa-app-android/issues" title="Open Issues"><img src="https://img.shields.io/github/issues/proofy/cpa-app-android"></a>
+    <a href="https://circleci.com/pf/proofy/cpa-app-android" title="Build Status"><img src="https://circleci.com/pf/proofy/cpa-app-android.png?circle-token=c26c689ad7833b8c0786752d3e65f56f25f906f3&style=shield"></a>
     <a href="./LICENSE" title="License"><img src="https://img.shields.io/badge/License-Apache%202.0-green.svg"></a>
 </p>
 
@@ -17,7 +17,15 @@
   <a href="#licensing">Licensing</a>
 </p>
 
+<p>
 The goal of this project is to develop the official Corona Party App for Germany based on the exposure reporting API of Apple and Google. The apps (for both iOS and Android) use Bluetooth technology to exchange anonymous encrypted data with other mobile phones (on which the app is also installed) near the phone of an app user. The data is stored locally on each user's device, preventing authorities or other parties from accessing or controlling the data. This repository contains the native Android implementation of the Corona Party App.
+</p>
+
+## Motivation
+
+<p>
+This app is intended to provide the user with an alternative and immediate way to immunize against the corona virus. This type of vaccination-free immunisation was already successfully implemented in the German Demoradic Republic. Of course, this form of very rapid immunization is not without health risk. Especially people who do not have a high level of trust in themselves and others should avoid this app.   
+</p>
 
 ## Development
 
@@ -40,7 +48,7 @@ The goal of this project is to develop the official Corona Party App for Germany
 
 ## Architecture & Documentation
 
-The full documentation for the Corona-Warn-App is in the [cwa-documentation](https://github.com/proofy/cpa-documentation) repository. The documentation repository contains technical documents, architecture information, UI/UX specifications, and whitepapers related to this implementation.
+The full documentation for the Corona-Warn-App is in the [cpa-documentation](https://github.com/proofy/cpa-documentation) repository. The documentation repository contains technical documents, architecture information, UI/UX specifications, and whitepapers related to this implementation.
 
 ## How to Contribute
 
