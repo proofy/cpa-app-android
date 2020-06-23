@@ -2,7 +2,7 @@
 <network-security-config xmlns:tools="http://schemas.android.com/tools">
 
     <domain-config cleartextTrafficPermitted="false">
-        <domain includeSubdomains="true">coronawarn.app</domain>
+        <domain includeSubdomains="true">coronaparty.app</domain>
         <pin-set
             expiration="2024-02-12"
             tools:ignore="MissingBackupPin">
