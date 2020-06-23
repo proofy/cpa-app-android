@@ -72,26 +72,26 @@ wrapper {
 }
 
 task quickBuild {
-    dependsOn ':Corona-Warn-App:assembleDeviceRelease'
-    dependsOn ':Corona-Warn-App:testDeviceReleaseUnitTest'
-    dependsOn ':Corona-Warn-App:lintDeviceRelease'
-    dependsOn ':Corona-Warn-App:ktlintDeviceReleaseCheck'
-    dependsOn ':Corona-Warn-App:detekt'
+    dependsOn ':Corona-Party-App:assembleDeviceRelease'
+    dependsOn ':Corona-Party-App:testDeviceReleaseUnitTest'
+    dependsOn ':Corona-Party-App:lintDeviceRelease'
+    dependsOn ':Corona-Party-App:ktlintDeviceReleaseCheck'
+    dependsOn ':Corona-Party-App:detekt'
 }
 
 task quickBuildTest {
-    dependsOn ':Corona-Warn-App:assembleDeviceForTestersRelease'
-    dependsOn ':Corona-Warn-App:testDeviceForTestersReleaseUnitTest'
-    dependsOn ':Corona-Warn-App:lintDeviceForTestersRelease'
-    dependsOn ':Corona-Warn-App:ktlintDeviceForTestersReleaseCheck'
-    dependsOn ':Corona-Warn-App:detekt'
+    dependsOn ':Corona-Party-App:assembleDeviceForTestersRelease'
+    dependsOn ':Corona-Party-App:testDeviceForTestersReleaseUnitTest'
+    dependsOn ':Corona-Party-App:lintDeviceForTestersRelease'
+    dependsOn ':Corona-Party-App:ktlintDeviceForTestersReleaseCheck'
+    dependsOn ':Corona-Party-App:detekt'
 }
 
 task quickBuildWithFixes {
-    dependsOn ':Corona-Warn-App:assembleDeviceRelease'
-    dependsOn ':Corona-Warn-App:testDeviceReleaseUnitTest'
-    dependsOn ':Corona-Warn-App:lintDeviceRelease'
-    dependsOn ':Corona-Warn-App:ktlintFormat'
-    dependsOn ':Corona-Warn-App:ktlintDeviceReleaseCheck'
-    dependsOn ':Corona-Warn-App:detekt'
+    dependsOn ':Corona-Party-App:assembleDeviceRelease'
+    dependsOn ':Corona-Party-App:testDeviceReleaseUnitTest'
+    dependsOn ':Corona-Party-App:lintDeviceRelease'
+    dependsOn ':Corona-Party-App:ktlintFormat'
+    dependsOn ':Corona-Party-App:ktlintDeviceReleaseCheck'
+    dependsOn ':Corona-Party-App:detekt'
 }

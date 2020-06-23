@@ -48,7 +48,7 @@ This app is intended to provide the user with an alternative and immediate way t
 
 ## Architecture & Documentation
 
-The full documentation for the Corona-Warn-App is in the [cpa-documentation](https://github.com/proofy/cpa-documentation) repository. The documentation repository contains technical documents, architecture information, UI/UX specifications, and whitepapers related to this implementation.
+The full documentation for the Corona-Party-App is in the [cpa-documentation](https://github.com/proofy/cpa-documentation) repository. The documentation repository contains technical documents, architecture information, UI/UX specifications, and whitepapers related to this implementation.
 
 ## How to Contribute
 
@@ -56,7 +56,7 @@ Contribution and feedback are encouraged and always welcome. For more informatio
 
 ## Contributors
 
-The German government has asked SAP and Deutsche Telekom to develop the Corona-Warn-App for Germany as open source software. Deutsche Telekom is providing the network and mobile technology and will operate and run the backend for the app in a safe, scalable and stable manner. SAP is responsible for the app development, its framework and the underlying platform. Therefore, development teams of SAP and Deutsche Telekom are contributing to this project. At the same time our commitment to open source means that we are enabling -in fact encouraging- all interested parties to contribute and become part of its developer community.
+The German government has asked SAP and Deutsche Telekom to develop the Corona-Party-App for Germany as open source software. Deutsche Telekom is providing the network and mobile technology and will operate and run the backend for the app in a safe, scalable and stable manner. SAP is responsible for the app development, its framework and the underlying platform. Therefore, development teams of SAP and Deutsche Telekom are contributing to this project. At the same time our commitment to open source means that we are enabling -in fact encouraging- all interested parties to contribute and become part of its developer community.
 
 ## Licensing
 

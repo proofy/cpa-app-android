@@ -1,5 +1,5 @@
 syntax = "proto3";
-package de.rki.coronawarnapp.server.protocols;
+package de.sj4.coronapartyapp.server.protocols;
 
 message File {
     Header header = 1;

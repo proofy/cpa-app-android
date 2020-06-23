@@ -17,7 +17,7 @@ jobs:
           ndk-version: "android-ndk-r21c"
       - restore-build-cache
       - restore_cache:
-          key: jars-{{ checksum "build.gradle" }}-{{ checksum  "Corona-Warn-App/build.gradle" }}-{{ checksum  "Server-Protocol-Buffer/build.gradle" }}
+          key: jars-{{ checksum "build.gradle" }}-{{ checksum  "Corona-Party-App/build.gradle" }}-{{ checksum  "Server-Protocol-Buffer/build.gradle" }}
       - run:
           name: Quick Build
           command: ./gradlew quickBuild
@@ -29,12 +29,12 @@ jobs:
       - save_cache:
           paths:
             - ~/.gradle
-          key: jars-{{ checksum "build.gradle" }}-{{ checksum  "Corona-Warn-App/build.gradle" }}-{{ checksum  "Server-Protocol-Buffer/build.gradle" }}
+          key: jars-{{ checksum "build.gradle" }}-{{ checksum  "Corona-Party-App/build.gradle" }}-{{ checksum  "Server-Protocol-Buffer/build.gradle" }}
       - store_artifacts:
-          path: Corona-Warn-App/build/reports
+          path: Corona-Party-App/build/reports
           destination: reports
       - store_test_results:
-          path: Corona-Warn-App/build/test-results
+          path: Corona-Party-App/build/test-results
 workflows:
   version: 2
   workflow:
